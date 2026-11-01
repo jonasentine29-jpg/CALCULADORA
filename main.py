@@ -1,3 +1,8 @@
+
+"""from area import cuadrado, rectangulo, triangulo, circulo"""
+import area
+
+
 operacion=input("Ingrese la operación a realizar: ").upper()
 v1=float(input("Ingrese el primer valor: "))
 v2=float(input("Ingrese el segundo valor: "))
@@ -25,3 +30,4 @@ def operaciones(v1,v2,operacion):
         print("raiz = ", v1**(1/v2))
 
 operaciones(v1,v2,operacion)
+area.cuadrado(5)
